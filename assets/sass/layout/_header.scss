@@ -1,0 +1,42 @@
+.nav{
+    padding: 15px 0;
+    &__logo{
+        background-color: $smoky-black;
+        color: $white;
+        font-size: $x-large;
+        text-decoration: none;
+        padding: 15px;
+        text-transform: uppercase;
+    }
+}
+.button{
+    float: right;
+}
+.menu-header{
+    display: none; 
+}
+
+@media screen and (min-width: 768px){
+    .menu-header{
+        margin-right: 104px;
+        margin-bottom: -15px;
+        display: block;
+        float: right;
+        &__item{
+            margin-top: 0;
+        }
+        &__list{
+            display: inline-block;
+            margin-right: 10px;
+        }
+        &__link{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    .button{
+        display: none;
+    }
+
+}
+

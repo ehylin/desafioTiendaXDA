@@ -1,0 +1,30 @@
+.main{
+    padding: 30px;
+    &__titulo{
+        font-size: $xx-large;
+        text-transform: uppercase;
+    }
+    &__subtitulo{
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        padding: 74px; 
+        &__titulo{
+            font-size: $xxx-large;
+        }
+        &__subtitulo{
+            font-size: $large;
+        }
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    .hero{
+        float: right;
+    }
+}
+
